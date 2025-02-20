@@ -1,6 +1,6 @@
 <script lang="ts">
 	import SignInCard from '$features/auth/sign-in-card.svelte';
-	import { superForm } from 'sveltekit-superforms';
+	import { superForm } from 'sveltekit-superforms/client';
 	import type { PageData } from './$types';
 
 	let { data }: { data: PageData } = $props();

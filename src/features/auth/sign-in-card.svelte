@@ -45,8 +45,7 @@
 				bind:value={$form.password}
 				placeholder="Enter password"
 				disabled={false}
-				minlength={8}
-				maxlength={256}
+				minlength={1}
 			/>
 			<Button disabled={false} size="lg" class="w-full" type="submit">Login</Button>
 		</form>
